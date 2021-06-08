@@ -1,0 +1,33 @@
+Sprints required -3 
+
+Sprint-1 : 
+	Date : From 01-06-2021 to 05-06-2021
+	Features to be covered and completed in Sprint 1:
+		1. Create File Class : Take input from user to Create file
+		2. File Storage class : Create a directory and add user files into that directory
+	
+	Sprint 1 Target Achieved :
+		No issues faced While completing this sprint
+		Sprint was a success
+	
+Sprint-2
+	Date : From 08-06-2021 to 12-06-2021
+	Features to be covered and completed in Sprint 2:
+		1.ListFiles class : Retrieve list of files created by user
+		2.DeleteFile class : Take input from user and delete the specified file
+	
+	Sprint 2 Target Achieved :	
+		No issues faces while completing this sprint
+		Sprint was a success
+		
+Sprint-3
+	Date : From 15-06-2021 to 21-06-2021
+	Features to be covered and completed in Sprint 3:
+		1.Main class : create a main class which will have reference to all classes and will be the entry point of the program
+		2.SearchFile Class :  Take input from user and Search the specified file return the name if found
+	
+		Sprint 3 Target Achieved :	
+		No issues faces while completing this sprint
+		Sprint was a success	
+		
+			

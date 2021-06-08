@@ -1,0 +1,64 @@
+Product capabilities : - 
+	1. User can Create files and store them n directories
+	2. User can Search any specific file in that directory
+	3. User can Get all the names of their file is ascending order .
+	4. User can delete any specific file.
+	5. User can close application once all the tasks are complete.
+	6.if user in Sub-menu can return to main menu
+	
+Appearance :- 
+	It is terminal based application , which on start-up shows a welcome screen,
+	which user can interact with , it contains welcome note with developer details and 
+	all options that are in main menu
+	
+User Interaction :-
+	1.User can interact with this application by using terminal input
+	2.main menu contains 3 options that user can choose from .
+	3.By pressing [1] user can retrieve all the previously saved files.
+	4.Next option[2] will get user into an sub-menu where user can create delete and search in the given order.
+	5.User also can choose to return to main menu from sub-menu
+	6.User also can close the application.
+	
+Java core Concepts :-
+	1.label
+	2.Switch Statement
+	3.If - else block
+	4.Static Method
+	5.While loop
+	6.Scanner class
+	7.Directory
+	8.File class
+	9.Various pre-defined methods of directories(sorting, adding , listing files)
+	10.createNewFile Method of file class
+	11.IOException
+	12.print-stack-trace
+	13.Encapsulation to retrieve file names
+	14.Delete Method of file class
+	15.Exists method to search through files
+	16.Class
+	17.Package
+	
+	
+Data Structure-
+	Arrays are used to sort files in ascending order and to search through them
+	
+GitHub Repository Link :- https://github.com/rahulBhargav25/SLProject-LockedMe
+	
+	
+Conclusion On Enhancing the application :
+	1. Conversion from Terminal to GUI application
+	2. Adding More features 
+		* Providing Suggestion to user while performing File operation.
+		* Add Read write operation in files for user.
+		* provide user with storage space that is used by the file.
+	
+	
+	3. Unique Selling points :
+		*User can retrieve saved files in ascending order with just one click.
+		*There is no restriction to user around the number of files stored.
+		*Precaution measure taken while executing delete command , so user wont delete the file accidently.
+		*User can use the application without termination and can willfully terminate application at any point of time.
+		*User can return to main menu from a sub menu without having to run the application again.
+	
+	
+	

@@ -20,11 +20,12 @@ public class Main {
 		  the variable is set to false
 		*/
 		boolean innerNestedClose = true;
+		System.out.println("====================================================================");
 		System.out.println("[]           [] [][][][]  []     [][][][] [][][][] []    [] [][][][]             ");
 		System.out.println(" []   []    []  [][]      []     []       []    [] [] [] [] [][]            ");
 		System.out.println("  [] [] [] []   [][]      []     []       []    [] []    [] [][]         ");
 		System.out.println("   []    []     [][][][]  [][][] [][][][] [][][][] []    [] [][][][]               ");
-		
+		System.out.println("====================================================================");
 		
 		System.out.println("Developer Name :Rahul Bhargav");
 		
@@ -33,10 +34,12 @@ public class Main {
 		while(outerClose) {
 			
 			System.out.println("choose from below options");
+			
+			System.out.println("============================================================");
 			System.out.println("1. Retrieve List of all saved files in ascending order");
 			System.out.println("2. File operations(Create/Delete/Search)");
 			System.out.println("3. Close Application");
-			
+			System.out.println("============================================================");
 			//user input to select the desired menu option
 			int userInputForMainMenu = scan.nextInt();
 			
@@ -50,10 +53,12 @@ public class Main {
 				//sub label to continue the inner loop
 				subLabel :
 				while(innerNestedClose) {
+					System.out.println("========================");
 					System.out.println("1. Add file");
 					System.out.println("2. Delete file");
-					System.out.println("3.Search");
-					System.out.println("4.Return to main menu");
+					System.out.println("3. Search file");
+					System.out.println("4. Return to main menu");
+					System.out.println("========================");
 					System.out.println("Please choose an option:");
 					int subOption=scan.nextInt();
 					//to avoid the blank input
@@ -85,7 +90,7 @@ public class Main {
 						case 4 :
 							//return to main menu
 							continue label;
-						//default for any other inut from user other than the specified output
+						//default for any other input from user other than the specified output
 						default :
 							System.out.println("Invalid option selected, please select again from below menu");
 							continue subLabel;
